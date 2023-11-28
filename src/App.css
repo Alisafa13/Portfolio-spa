@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+  width: 30px;
+  height: 30px;
+}
+.all{
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.link, a{
+  text-decoration: none;
+  color: black;
+}
+.wrapper{
+  background-color: rgb(146, 143, 143);
+}
+.collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease;
+}
+
+.show {
+  max-height: 500px;
+}
